@@ -1,0 +1,26 @@
+%titulo {
+    .title {
+        h1 {
+            font-size: 2.4em;
+            margin-bottom: 0.4em;
+            position: relative;
+            color: $preto;
+            font-family: $font-type2;
+
+            &::before {
+                width: 75px;
+                border-top: 4px solid $cinza;
+                content: '';
+                position: absolute;
+                bottom: 1.75em;
+            }
+
+        }
+
+        p {
+            font-size: 1em;
+            color: $cinza;
+        }
+    }
+}
+

@@ -1,0 +1,192 @@
+header{
+    @extend %titulo;
+}
+
+#slider {
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption {
+    bottom: 3em;
+
+}
+
+#slider .carousel-caption h5 {
+    font-size: 2.5em;
+    text-shadow: #000 2px 2px;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+#slider .btn {
+    padding: 0.3 0.8em;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #222;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active {
+    background-color: rgb(255, 255, 255);
+}
+
+@media(min-width: 768px) {
+    #slider .carousel-caption {
+        bottom: 15em;
+    }
+
+    #slider .carousel-caption h5 {
+        font-size: 4em;
+        text-shadow: #000 2px 3px;
+    }
+
+    #slider .btn {
+        padding: 0.6 1.6em;
+        font-size: 1.2em;
+    }
+
+    .carousel-indicators {
+        bottom: 7em;
+    }
+
+    /* ALTURA DAS IMAGENS */
+    .carousel-item {
+        max-height: 680px;
+    }
+}
+
+
+#featured-container {
+    margin-bottom: 4em;
+}
+
+#topic-container {
+    margin-top: 13em;
+    margin-bottom: 8em;
+}
+
+.topic{
+    margin-top: 2em;
+}
+
+#featured-images {
+    margin-top: 2em;
+}
+
+#featured-images .col-md-4 {
+    position: relative;
+    cursor: pointer;
+}
+
+#featured-images .col-md-4:hover > .banner-content {
+    opacity: 0.8;
+}
+
+#featured-images .banner-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+@media(min-width: 768px) {
+
+    #featured-images .banner-content {
+        opacity: 0;
+    }
+}
+
+/* INFO */
+#info-content{
+    margin-bottom: 4em;
+    padding: 4em 1em;
+}
+
+#info-mvv {
+    margin-top: 1.5em;
+    text-align: center;
+}
+
+#info-mvv h3{
+    font-weight: 600;
+}
+
+#info-banner {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5em;
+}
+
+#info-numbrs h3 {
+    font-size: 3em;
+}
+
+@media (min-width: 768px) {
+    #info-content{
+        padding: 3.5em;
+    }
+}
+
+
+#mini-banners {
+    margin-bottom: 4em;
+}
+
+#mini-banners .card {
+    background-image: url(../img/fundo5.PNG);
+    padding: 2em 0.3em;
+    border-radius: 0;
+    margin-bottom: 1em;
+    box-shadow: 20px 20px 50px grey;
+
+}
+
+#mini-banners i {
+    font-size: 4em;
+}
+
+#mini-banners .card-title {
+    margin-bottom: 1.5em;
+}
+
+#mini-banners .btn {
+    margin-top: 1.5em;
+    padding: 0.6em 1.2em;
+}
+
+.btn-s{
+    background-image: linear-gradient(to bottom right, green, rgb(25, 161, 12),  rgb(251, 255, 0));
+    border: none;
+    box-shadow: 10px 10px 40px grey;
+
+}
+.btn-s:hover{
+    background-image: linear-gradient(to bottom right, rgb(251, 255, 0 ), rgb(25, 161, 12),green);
+}
+
+@media(min-width: 768px) {
+    #mini-banners {
+        margin-top: -6em;
+    }
+
+}

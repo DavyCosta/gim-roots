@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramondLight.eot');
+    src: url('AppleGaramondLight.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramondLight.woff2') format('woff2'),
+        url('AppleGaramondLight.woff') format('woff'),
+        url('AppleGaramondLight.ttf') format('truetype'),
+        url('AppleGaramondLight.svg#AppleGaramondLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramond-Italic.eot');
+    src: url('AppleGaramond-Italic.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramond-Italic.woff2') format('woff2'),
+        url('AppleGaramond-Italic.woff') format('woff'),
+        url('AppleGaramond-Italic.ttf') format('truetype'),
+        url('AppleGaramond-Italic.svg#AppleGaramond-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramondLight-Italic.eot');
+    src: url('AppleGaramondLight-Italic.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramondLight-Italic.woff2') format('woff2'),
+        url('AppleGaramondLight-Italic.woff') format('woff'),
+        url('AppleGaramondLight-Italic.ttf') format('truetype'),
+        url('AppleGaramondLight-Italic.svg#AppleGaramondLight-Italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramond-Bold.eot');
+    src: url('AppleGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramond-Bold.woff2') format('woff2'),
+        url('AppleGaramond-Bold.woff') format('woff'),
+        url('AppleGaramond-Bold.ttf') format('truetype'),
+        url('AppleGaramond-Bold.svg#AppleGaramond-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Don Graffiti';
+    src: url('DonGraffitiRegular.eot');
+    src: url('DonGraffitiRegular.eot?#iefix') format('embedded-opentype'),
+        url('DonGraffitiRegular.woff2') format('woff2'),
+        url('DonGraffitiRegular.woff') format('woff'),
+        url('DonGraffitiRegular.ttf') format('truetype'),
+        url('DonGraffitiRegular.svg#DonGraffitiRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramond.eot');
+    src: url('AppleGaramond.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramond.woff2') format('woff2'),
+        url('AppleGaramond.woff') format('woff'),
+        url('AppleGaramond.ttf') format('truetype'),
+        url('AppleGaramond.svg#AppleGaramond') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('AppleGaramond-BoldItalic.eot');
+    src: url('AppleGaramond-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('AppleGaramond-BoldItalic.woff2') format('woff2'),
+        url('AppleGaramond-BoldItalic.woff') format('woff'),
+        url('AppleGaramond-BoldItalic.ttf') format('truetype'),
+        url('AppleGaramond-BoldItalic.svg#AppleGaramond-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Empires';
+    src: url('EmpiresRegular.eot');
+    src: url('EmpiresRegular.eot?#iefix') format('embedded-opentype'),
+        url('EmpiresRegular.woff2') format('woff2'),
+        url('EmpiresRegular.woff') format('woff'),
+        url('EmpiresRegular.ttf') format('truetype'),
+        url('EmpiresRegular.svg#EmpiresRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

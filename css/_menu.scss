@@ -1,0 +1,50 @@
+#navbar {
+    border-bottom: 1px solid hsla(0, 0%, 58%, 0.521);
+    background-color: $branco;
+    font-weight: 600;
+
+    a {
+        &:hover {
+            color: $cinza;
+        }
+
+        &.active {
+            border-bottom: 2px solid rgb(0, 128, 0);
+        }
+    }
+
+    .navbar-brand {
+        display: flex;
+
+        img {
+            height: 70px;
+        }
+
+        span {
+            font-weight: 700;
+            font-size: 2em;
+            margin-left: 0.5em;
+            font-family: Empires, sans-serif;
+        }
+
+
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-item {
+        margin: 0 1em;
+
+
+    }
+
+    .check {
+        font-weight: bold;
+        font-size: 1.5em;
+        margin-right: 1em;
+    }
+}
